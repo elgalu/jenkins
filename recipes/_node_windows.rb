@@ -20,8 +20,6 @@
 # limitations under the License.
 #
 
-include_recipe 'java::default'
-
 home_dir = node['jenkins']['node']['home']
 server_url = node['jenkins']['server']['url']
 

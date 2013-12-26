@@ -25,8 +25,6 @@
 # limitations under the License.
 #
 
-include_recipe 'java::default'
-
 user node['jenkins']['server']['user'] do
   home node['jenkins']['server']['home']
 end

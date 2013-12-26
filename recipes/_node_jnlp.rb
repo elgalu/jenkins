@@ -20,7 +20,6 @@
 # limitations under the License.
 #
 
-include_recipe 'java::default'
 include_recipe 'runit::default'
 
 service_name = 'jenkins-slave'

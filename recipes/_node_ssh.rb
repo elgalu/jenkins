@@ -20,8 +20,6 @@
 # limitations under the License.
 #
 
-include_recipe 'java::default'
-
 unless Chef::Config[:solo]
   unless node['jenkins']['server']['pubkey']
     host = node['jenkins']['server']['host']
